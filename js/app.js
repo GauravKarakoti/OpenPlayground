@@ -48,7 +48,11 @@ toggleBtn.addEventListener("click", () => {
     const newTheme =
         html.getAttribute("data-theme") === "light" ? "dark" : "light";
 
+
     html.setAttribute("data-theme", newTheme);
+
+  html.setAttribute("data-theme", newTheme);
+
     localStorage.setItem("theme", newTheme);
     updateThemeIcon(newTheme);
     toggleBtn.classList.add("shake");
@@ -130,10 +134,18 @@ if(navToggle && navLinks){
 // PROJECTS SEARCH, FILTER, SORT, PAGINATION
 // ===============================
 
+
 const searchInput = document.getElementById("project-search");
 const sortSelect = document.getElementById("project-sort");
 const filterBtns = document.querySelectorAll(".filter-btn");
 
+
+
+  const searchInput = document.getElementById("project-search");
+const sortSelect = document.getElementById("project-sort");
+const filterBtns = document.querySelectorAll(".filter-btn");
+
+  
 
 // Number of project cards displayed per page
 const itemsPerPage = 9;
@@ -179,6 +191,7 @@ if (clearBtn) {
         renderProjects();
     });
 }
+
 
 const projectsContainer = document.querySelector(".projects-container");
 const paginationContainer = document.getElementById("pagination-controls");
@@ -234,6 +247,10 @@ allCards.forEach(card => {
     card.style.position = "relative";
     card.appendChild(githubBtn);
 });
+
+
+
+
 
 // Fetch projects JSON
 async function fetchProjects() {
@@ -412,6 +429,10 @@ function renderProjects() {
 
         card.innerHTML = `
             <div class="card-cover" style="${project.coverStyle || ''}"><i class="${project.icon}"></i></div>
+
+
+
+
 
         // Cover style
         let coverAttr = "";
