@@ -1343,7 +1343,16 @@
     "link": "./projects/OS-ReadinessChecker/index.html",
     "icon": "ri-direction-line",
     "coverStyle": "background: linear-gradient(135deg, #020617 0%, #22d3ee 100%); color:#ecfeff;"
-  }
+  },
+  {
+  "title": "Internet Speed Tester",
+  "category": "utility",
+  "description": "Test your internet speed with this interactive tool.",
+  "tech": ["HTML", "CSS", "JS"],
+  "link": "./projects/internet-speed-tester/index.html",
+  "icon": "ri-palette-line",
+  "coverStyle": "background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;"
+}
 ]
 
 
