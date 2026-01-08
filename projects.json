@@ -221,6 +221,13 @@
     "coverStyle": "background: #312e81; color: #a5b4fc;"
   },
   {
+  "name":"URL Shortener",
+  "description":"Frontend-only URL shortener with redirection, click tracking, and localStorage persistence.",
+  "path":"projects/url-shortener",
+  "tags":["HTML","CSS","JavaScript","Utility"]
+},
+
+  {
     "title": "Infinite Runner",
     "category": "game",
     "description": "Procedural neon runner with parallax.",
@@ -1002,6 +1009,10 @@
     "link": "./projects/Insta_bio_suggesstion/index.html",
     "icon": "ri-user-line",
     "coverStyle": "background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%); color: #7c2d12;"
+ add-url-shortener
+  }
+]
+=======
   },
   {
     "title": "Hangman Game",
@@ -1423,5 +1434,7 @@
 }
 
 
+]
+main
 
 ]
