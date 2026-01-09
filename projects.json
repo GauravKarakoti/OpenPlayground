@@ -823,6 +823,19 @@
     "coverStyle": "background: #8b5cf6; color: white;"
   },
   {
+  "title": "Word Twist Challenge",
+  "category": "game",
+  "description": "Guess the correct word from scrambled letters within limited attempts and time.",
+  "tech": [
+    "HTML",
+    "CSS",
+    "JS"
+  ],
+  "link": "./projects/word-twist-challenge/index.html",
+  "icon": "ri-gamepad-line",
+  "coverStyle": "background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%); color: white;"
+},
+  {
     "title": "Tower of Hanoi",
     "category": "game",
     "description": "Classic Tower of Hanoi puzzle.",
