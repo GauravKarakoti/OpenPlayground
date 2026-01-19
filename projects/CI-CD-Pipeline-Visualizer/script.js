@@ -1217,8 +1217,11 @@ class PipelineExecutor {
 
     sleep(ms) {
         return new Promise(resolve => {
-            const timeout = setTimeout(resolve, ms);
-            this.state.addInterval(timeout);
+            const interval = setInterval(() => {
+                clearInterval(interval);
+                resolve();
+            }, ms);
+            this.state.addInterval(interval);
         });
     }
 }
