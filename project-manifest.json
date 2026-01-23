@@ -19,6 +19,11 @@
       "link": "./projects/365Days/index.html"
     },
     {
+      "folder": "ThoughtSpeedAnalyzer",
+      "path": "./projects/ThoughtSpeedAnalyzer/project.json",
+      "link": "./projects/ThoughtSpeedAnalyzer/index.html"
+    },
+    {
       "folder": "AccessibilityColorLab",
       "path": "./projects/AccessibilityColorLab/project.json",
       "link": "./projects/AccessibilityColorLab/index.html"
